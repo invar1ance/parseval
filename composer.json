@@ -1,10 +1,12 @@
 {
-  "name": "invar1ance/parseval-php",
+  "name": "invar1ance/parseval",
   "description": "",
   "type": "library",
   "license": "MIT",
   "require": {
-    "php": "^8.0"
+    "php": "^8.4",
+    "symfony/dom-crawler": "^7.3",
+    "ramsey/collection": "^2.1"
   },
   "autoload": {
     "psr-4": {
